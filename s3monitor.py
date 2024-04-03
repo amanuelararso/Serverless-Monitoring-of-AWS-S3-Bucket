@@ -12,8 +12,8 @@ def send_email():
     SUBJECT = "Important Files changed!"
 
     # The email body for recipients with non-HTML email clients.
-    BODY_TEXT = ("Dear Amanuel,\r\n Your files in S3 bucket named 'importantfiles2023' has recently changed \n\n "
-    "You can check it out using the following link 'https://s3.console.aws.amazon.com/s3/buckets/importantfiles2023?region=us-east-1&tab=objects' on management console \n"
+    BODY_TEXT = ("Dear [User],\r\n Your files in S3 bucket named '[bucketName]' has recently changed \n\n "
+    "You can check it out using the following link '[bucketLink]' on management console \n"
     "Disregard this email if it is you!"
     "**** Automatically generated from AWS Lambda  ****")
                 
@@ -26,8 +26,8 @@ def send_email():
     <head></head>
     <body>
     <h3>Dear , </h3>
-    <p>Your important files in S3 bucket named <i>importantfiles2023</i> has recently changed, You can check it out using the following link
-        <a href='https://s3.console.aws.amazon.com/s3/buckets/importantfiles2023?region=us-east-1&tab=objects'><i>importantfiles2023</i></a> 
+    <p>Your important files in S3 bucket named <i>i[bucketName]</i> has recently changed, You can check it out using the following link
+        <a href='[bucketLink]'><i>[bucketName]</i></a> 
       <br> <br>
       Disregard this email if it is you! 
       
