@@ -3,7 +3,8 @@
 
 This project implements a serverless solution utilizing AWS Lambda for real-time monitoring of file uploads and deletions within an S3 bucket. The system enhances operational efficiency by providing timely alerts to administrators, enabling proactive issue resolution.
 
-<img width="702" alt="Screen Shot 2024-04-03 at 4 41 41 PM" src="https://github.com/amanuelararso/Serverless-Monitoring-of-AWS-S3-Bucket/assets/26092925/510eaa29-521c-4f6b-bef8-58047fb05c6f">
+<img width="702" alt="Screen Shot 2024-04-03 at 4 43 12 PM" src="https://github.com/amanuelararso/Serverless-Monitoring-of-AWS-S3-Bucket/assets/26092925/1bc2d769-5211-4469-aa7f-27ba84d74f21">
+
 
 
 ## Features
